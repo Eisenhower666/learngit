@@ -1,0 +1,10 @@
+	git init:          Git_bash命令行初始化该目录为git仓库
+	git status:     查看当前版本库状态
+	git add <filename>:   将新建或改动文件添加到暂存区
+	git commit -m "describe message" : 提交
+	git remote add origin https://github.com/Eisenhower666/learngit.git:  本地git关联到远程GitHub，即托管到GitHub，注意：GitHub与不同的git关联都有SSH key， 即不同电脑安装的git要想关联统一GitHub账户需要分别配置SSH KEY。 
+	git push -u origin master : 第一次使用加-u，把本地master分支推送到远程新的master分支，并关联。 之后可以不用-u
+	git clone url: 将远程库clone到本地
+	git checkout -b dev: 创建并切换到“dev”分支，相当于两条命令：git branch dev, git checkout dev
+	git  merge dev: 将dev合并到当前分支
+	git branch -d dev: 删除dev分支
